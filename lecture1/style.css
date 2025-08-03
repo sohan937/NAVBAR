@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:white;
+}
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlist{
+    display:flex;
+    gap:80px;
+}
+.logo{
+    font-size: 2rem;
+    color:white;
+}
+header{
+    background-color: black;
+    padding: 40px;
+}
+
+.btn{
+    padding: 20px 35px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(24, 177, 228);
+    color:red;
+}
+@media(max-width:1413px){
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        gap:100px;
+        justify-content: center;
+    }
+    .navlist{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* .container{
+    height:100vh;
+    width:100vw;
+    background-image: url(https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTC6vBReh7p0IdW5F5rAwRBTmJNcDeJzUR21ZaKE1_1h1memFkYk6o2qG7lGHJArg5GUb0lK63F_opIZiY);
+background-repeat: no-repeat;
+background-size: contain;
+
+} */
+
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE8y50Dr30jBvouA8SN75ulmi80w3aI-Ssgw&s);
+    background-repeat: no-repeat;
+    background-size: cover;  /* Ensures the image fills the container completely */
+    background-position: center;  /* Keeps the image centered */
+}
+
